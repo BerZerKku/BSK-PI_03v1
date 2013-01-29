@@ -1,0 +1,151 @@
+(ExpressProject "BSK-PI_03v1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "e:\orcad_sch\lib\sample.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\bsk-pi_03v1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File "E:\ORCAD_SCH\K400\BSK-PI\BSK-PI_03V1\BSK-PI_03V1.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "TRUE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "TRUE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "0")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "TRUE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "pcb")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Input Board File"
+       "E:\ORCAD_sch\K400\BSK-PI\BSK-PI_03v1\pcb\__BSK-PI_03v1_tmp.brd")
+    ("Allegro Netlist Output Board File"
+       "E:\ORCAD_sch\K400\BSK-PI\BSK-PI_03v1\pcb\BSK-PI_03v1.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "62")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File ".\bsk-pi_03v1.drc"
+      (Type "Report"))
+    (File ".\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_ARROW
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON_20
+      (FullPartName "CON_20.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (RES_0.125W
+      (FullPartName "RES_0.125W.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (RES_0.25W
+      (FullPartName "RES_0.25W.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (DIODE_LED
+      (FullPartName "DIODE_LED.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\ORCAD_sch\K400\BSK-PI\BSK-PI_03v1\bsk-pi_03v1.dsn")
+      (Path "Design Resources"
+         "E:\ORCAD_sch\K400\BSK-PI\BSK-PI_03v1\bsk-pi_03v1.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "E:\ORCAD_sch\K400\BSK-PI\BSK-PI_03v1\bsk-pi_03v1.dsn" "A - LED")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "e:\orcad_sch\lib\sample.olb")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 861"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 44 1028 44 487")
+        (Scroll "-36 0")
+        (Zoom "87")
+        (Occurrence "/"))
+      (Path "E:\ORCAD_SCH\K400\BSK-PI\BSK-PI_03V1\BSK-PI_03V1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Shcheblykin")
+  (ISPCBBASICLICENSE "false"))
