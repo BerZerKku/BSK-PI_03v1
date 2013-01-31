@@ -130,7 +130,9 @@
          "E:\ORCAD_sch\K400\BSK-PI\BSK-PI_03v1\bsk-pi_03v1.dsn" "A - LED")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "e:\orcad_sch\lib\sample.olb")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"
+         "E:\ORCAD_sch\K400\BSK-PI\BSK-PI_03v1\bsk-pi_03v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -140,8 +142,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 44 1028 44 487")
-        (Scroll "-36 0")
+        (Placement "44 0 1 -1 -1 -4 -23 44 1028 44 487")
+        (Scroll "-50 0")
         (Zoom "87")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\K400\BSK-PI\BSK-PI_03V1\BSK-PI_03V1.DSN")
